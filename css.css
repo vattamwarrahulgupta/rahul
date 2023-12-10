@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-me, .projects, .contact {
+    margin: 20px;
+}
+
+.projects, .contact {
+    border-top: 2px solid #333;
+    padding-top: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
