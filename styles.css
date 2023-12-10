@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('netflixbackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .logo {
+    /* Add Netflix logo styles */
+    /* Example: background: url('netflix-logo.png') center center / contain no-repeat; */
+    width: 200px;
+    height: 100px;
+    /* Replace with the actual Netflix logo dimensions and image */
+    /* Ensure the Netflix logo is properly credited and obtained through legal means */
+  }
+  
+  .login-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    background-color: red; /* Change to Netflix red color */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
